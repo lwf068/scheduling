@@ -85,7 +85,7 @@ def RR_scheduling(process_list, time_quantum):
                         break
                     new_index += 1
         index += 1
-    average_waiting_time = waiting_time/float(len(temp_list))
+    average_waiting_time = waiting_time / float(len(process_list))
     return schedule, average_waiting_time
     #return (["to be completed, scheduling process_list on round robin policy with time_quantum"], 0.0)
 
